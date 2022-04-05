@@ -1,0 +1,10 @@
+2022-04-05T01:19:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in /var/www/html/wp-content/themes/fictional-university-theme/functions.php on line 3 and at least 2 expected in /var/www/html/wp-includes/plugin.php:398
+Stack trace:
+#0 /var/www/html/wp-content/themes/fictional-university-theme/functions.php(3): add_action()
+#1 /var/www/html/wp-settings.php(555): include('/var/www/html/w...')
+#2 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-includes/plugin.php on line 398
+
